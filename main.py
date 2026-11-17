@@ -1,4 +1,17 @@
-import requests
-r = requests.get("https://google.com")
-print(r.status_code)
-print("Hello, world!")
+print("=" * 45)
+print("       ВАШ ЛУЧШИЙ ОТДЫХ")
+print("          АНКЕТА ТУРИСТА")
+print("=" * 45)
+
+
+print("\nЗаполнение заявки на отдых")
+name = input("Как Вас зовут?")
+city = input("Из какого города планируете вылет?")
+country = input("В какую страну планируется поездка? (можно выбрать несколько)")
+period = input("На какие даты планируете поездку? (диапазон дат)")
+nights_from = input("Ночей ОТ: ")
+nights_to = input("Ночей ДО: ")
+adults = input("Сколько взрослых туристов? ")
+children = input("Сколько детей едет с вами? ")
+children_ages = input("Возраст каждого ребенка через запятую:" )
+budget = input("Примерный бюджет поездки" )
